@@ -1,29 +1,32 @@
 import styles from '../styles/Header.module.css';
+import Link from 'next/link'
 
 export function HeaderLink({ name, url }) {
   return (
-    <a className={styles.headerLink} href={url}>{name}</a>
+    <Link className={styles.headerLink} href={url}>{name}</Link>
   )
 }
 
 export default function Header() {
   return (
     <div className={styles.container}>
-      <p className={styles.siteName}>
-        jaysa.net
-      </p>
+      <HeaderLink
+        className={styles.siteName}
+        name="jaysa.net"
+        url="/"
+      />
       <div>
         <HeaderLink
           name="about"
-          url="https://bencuan.me/"
+          url="/about"
         />
         <HeaderLink
           name="projects"
-          url="https://bencuan.me/"
+          url="/about"
         />
         <HeaderLink
           name="blog"
-          url="https://bencuan.me/"
+          url="/about"
         />
       </div>
     </div>

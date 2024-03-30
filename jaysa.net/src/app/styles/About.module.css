@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'LibreBaskerville';
+  src: local('LibreBaskerville'), url(../fonts/LibreBaskerville-Regular.ttf) format('truetype');
+}
+
+.text {
+  font-family:"LibreBaskerville";
+  margin: 1rem;
+  font-size: 0.9rem;
+  line-height: 175%;
+}

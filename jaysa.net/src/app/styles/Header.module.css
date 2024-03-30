@@ -28,3 +28,15 @@
   background-color: #a89984;
   color: #282828;
 }
+
+@media (max-width: 674px) {
+  .headerLink {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 674px) {
+  .container {
+    justify-content: center;
+  }
+}
