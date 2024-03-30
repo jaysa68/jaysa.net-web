@@ -6,8 +6,8 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
+  body: 100%;
 }
 
 .container {
@@ -17,9 +17,8 @@ body {
   border-color: #ebdbb2;
 
   position: relative;
-  overflow: hidden;
   margin: 16px;
-  height: 90vh;
+  overflow: hidden;
 }
 
 a {
@@ -37,8 +36,14 @@ a:hover {
 
 .imageWrapper {
   display: flex;
-  height: 92%;
+  height: 80vh;
   width: auto;
+}
+
+@media (max-width: 674px) {
+  .imageWrapper {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 674px) {
