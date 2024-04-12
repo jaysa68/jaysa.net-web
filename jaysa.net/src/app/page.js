@@ -1,12 +1,14 @@
 import styles from './styles/global.css'
+
 import Image from'next/image'
 
 export default function Home() {
   return (
     <div className="imageWrapper">
     <Image
-      src='/room.png'
+      src='/room.jpg'
       alt='my room'
+      placeholder='empty'
       quality={100}
       priority={true}
       width='1000'

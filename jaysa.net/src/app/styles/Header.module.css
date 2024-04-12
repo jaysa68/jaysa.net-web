@@ -20,13 +20,17 @@
   color: inherit;
 }
 
+.headerLink:hover {
+  color: var(--bg1-color);
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #a89984;
-  color: #282828;
+  background-color: var(--gray);
+  color: var(--bg-color);
 }
 
 @media (max-width: 674px) {

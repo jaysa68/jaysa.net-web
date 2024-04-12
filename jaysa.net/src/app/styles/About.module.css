@@ -9,3 +9,11 @@
   font-size: 0.9rem;
   line-height: 175%;
 }
+
+.innerContainer {
+  display: flex;
+}
+
+.halfDiv {
+  width: 50%;
+}

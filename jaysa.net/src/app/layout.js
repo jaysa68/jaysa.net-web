@@ -1,5 +1,4 @@
 import Header from './_components/header'
-import Container from './_components/container'
 import styles from './styles/global.css'
 
 export default function RootLayout({ children }) {
