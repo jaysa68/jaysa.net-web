@@ -9,7 +9,7 @@ export default function Home() {
       src='/room.jpg'
       alt='my room'
       placeholder='empty'
-      quality={100}
+      quality={50}
       priority={true}
       width='1000'
       height='1000'
