@@ -71,8 +71,8 @@
 }
 
 body {
-  background-color: var(--bg1-color);
-  color: var(--fg-color);
+  background-color: #3c3836;
+  color: #ebdbb2;
 
   margin: 0;
   padding: 0;
@@ -82,7 +82,7 @@ body {
 }
 
 .container {
-  background-color: var(--bg-color);
+  background-color: #282828;
   border-style: solid;
   border-width: 1px;
   border-color: var(--fg-color);
