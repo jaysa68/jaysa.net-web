@@ -102,6 +102,10 @@ body {
   overflow: hidden;
 }
 
+a {
+  color: var(--bg1-color);
+}
+
 @media (max-width: 674px) {
   .imageWrapper {
     justify-content: center;
