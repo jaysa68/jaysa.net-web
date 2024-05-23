@@ -23,8 +23,8 @@ export default function Home() {
 
         <br/><br/>
 
-        I grew up right on the edge of Turlock, California, which is a mid-sized
-        town in the Central Valley. In high school, I was co-president of the Game
+        I grew up right on the edge of Turlock, which is a mid-sized
+        town in the Central Valley of California. In high school, I was co-president of the Game
         Club (both board and video games) and played clarinet in the marching band.
         When I got home, I'd join a voice chat with my friends and play more games
         until late into the night. I've been a bit too busy in college to continue
