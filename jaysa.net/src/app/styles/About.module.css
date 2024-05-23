@@ -17,3 +17,16 @@
 .halfDiv {
   width: 50%;
 }
+
+.pLink {
+  color: var(--green);
+  text-decoration: none;
+}
+
+.pLink:visited {
+  color: var(--green);
+}
+
+.pLink:hover {
+  color: var(--bright-green);
+}

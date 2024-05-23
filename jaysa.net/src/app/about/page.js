@@ -14,11 +14,11 @@ export default function Home() {
         <br/><br/>
 
         When I'm not in class, I'm involved at a student-run computer lab called
-        the <Link href="https://www.ocf.berkeley.edu/">Open Computing Facility</Link>,
+        the <Link className={styles.pLink} href="https://www.ocf.berkeley.edu/">Open Computing Facility</Link>,
         which I love very dearly. I also have my on-campus job with the <Link
-        href="https://csf.berkeley.edu/">Committee For Student Fees</Link>, where I do
-        a lot of student fee related work, if you can believe it. My third thing: I
-        volunteer for <Link href="https://sweplusplus.github.io/">SWE++</Link>, a weekly class that teaches coding to middle school
+        href="https://csf.berkeley.edu/" className={styles.pLink}>Committee For Student Fees</Link>, where I do
+        a lot of student fee related work, if you can believe it. Finally, I
+        volunteer for <Link className={styles.pLink} href="https://sweplusplus.github.io/">SWE++</Link>, a weekly class that teaches coding to middle school
         girls.
 
         <br/><br/>

@@ -88,28 +88,18 @@ body {
   border-color: var(--fg-color);
 
   position: relative;
+  display: flex;
+  flex-direction: column;
   margin: 16px;
-  overflow: hidden;
-  min-height: 90%;
-}
-
-a {
-  color: var(--green);
-  text-decoration: none;
-}
-
-a:visited {
-  color: var(--green);
-}
-
-a:hover {
-  color: var(--bright-green);
+  overflow: scroll;
+  height: calc(100vh - 34px);
 }
 
 .imageWrapper {
   display: flex;
-  height: 80vh;
-  width: auto;
+  flex-grow: 1 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 @media (max-width: 674px) {
