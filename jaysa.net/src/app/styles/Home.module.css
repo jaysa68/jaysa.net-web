@@ -118,3 +118,20 @@
     align-items: center;
   }	  
 }
+
+@media (max-width: 500px) {
+  .innerFriendBox {
+    padding: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    width: 14rem;
+    height: 20rem;
+  } 
+  .card {
+    width: 14rem;
+    height: 20rem;
+  }
+}

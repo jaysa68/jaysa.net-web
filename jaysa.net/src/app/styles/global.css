@@ -99,14 +99,8 @@ a {
   color: var(--bg1-color);
 }
 
-@media (max-width: 674px) {
-  .imageWrapper {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 674px) {
-  .imageWrapper {
-    justify-content: center;
-  }
+@media (max-width: 500px) {
+  .container {
+    margin: 0px;
+  }	  
 }
