@@ -95,13 +95,6 @@ body {
   height: calc(100vh - 34px);
 }
 
-.imageWrapper {
-  display: flex;
-  flex-grow: 1 1;
-  min-height: 0;
-  overflow: hidden;
-}
-
 a {
   color: var(--bg1-color);
 }

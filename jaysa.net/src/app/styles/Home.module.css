@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'LemonTuesday';
+  src: local('LemonTuesday'), url(../fonts/LemonTuesday.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'DatangStory';
+  src: local('DatangStory'), url(../fonts/DatangStory.otf) format('opentype');
+}
+
+.imageWrapper {
+  display: flex;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.friendBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerFriendBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  height: 13rem;
+  gap: 5px;
+
+  background-color: var(--gray);
+  border-style: solid;
+  border-color: var(--bright-gray);
+  box-shadow: 2px 2px 3px black;
+
+  color: var(--bg-color);
+  font-weight: bold;
+  font-size: 0.96rem;
+
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.friendBadge {
+  padding: 4px;
+  border-style: solid;
+  border-color: var(--fg-color);
+  border-top-color: var(--bright-gray);
+  border-right-color: var(--bright-gray);
+}
+
+.card {
+  color: var(--bg-color);
+  background-color: var(--fg1-color);
+  background-image:
+    linear-gradient( var(--fg1-color) 3rem, #fb4934 3rem, #F0A4A4 calc(3rem + 2px), transparent 1px),
+    repeating-linear-gradient(transparent, transparent 1.5rem, #8ea598 1px, #8ea598 calc(1.5rem + 1px));
+  box-shadow: 2px 2px 3px black;
+  height: calc(13rem + 22px);
+  width: calc(20rem + 22px);
+  margin: 16px;
+}
+
+.cardTitle {
+  font-family:"DatangStory";
+  margin: 0;
+  font-size: 1.5rem;
+  padding-top: calc(1.25rem + 2px);
+  text-align: center;
+  padding-bottom: calc(1.5rem)
+}
+
+.cardText {
+  font-family:"DatangStory";
+  padding-left: 0.25rem;
+  margin: 0;
+  font-size: 1rem;
+  padding-bottom: 1px;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.25rem;
+  vertical-align: middle;
+}
+
+.leftDiv {
+  width: 50%;
+}
+
+.rightDiv {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+.centerContainer {
+  flex-grow: 1;
+  align-content: center;
+}
+
+@media (max-width: 1106px) {
+  .centerContainer {
+    position: absolute;
+  }
+  .imageWrapper {
+    justify-content: center;
+  }	  
+}
+@media (max-height: 630px) {
+  .centerContainer {
+    position: absolute;
+  }
+  .imageWrapper {
+    justify-content: center;
+    align-items: center;
+  }	  
+}
