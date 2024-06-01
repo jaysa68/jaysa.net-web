@@ -125,7 +125,7 @@
     width: 14rem;
     height: 20rem;
   }
-  .container {
-    height: 100vh;
+  .imageWrapper {
+    justify-content: center;
   }
 }
