@@ -22,11 +22,11 @@ export default function Header() {
         />
         <HeaderLink
           name="projects"
-          url="/about"
+          url="/projects"
         />
         <HeaderLink
           name="blog"
-          url="/about"
+          url="/blog"
         />
       </div>
     </div>

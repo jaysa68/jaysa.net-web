@@ -40,7 +40,7 @@ export default function FriendsList() {
     <FriendBadge 
       name="oliverni"
       image="/88x31/oliver.png"
-      url="https://https://oliver.ni/"
+      url="https://oliver.ni/"
     />
     <FriendBadge 
       name="trinityc"

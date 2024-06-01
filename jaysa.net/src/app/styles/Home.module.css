@@ -10,12 +10,15 @@
 
 .imageWrapper {
   display: flex;
+  flex-grow: 1;
+
   min-height: 0;
   min-width: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-.friendBox {
+
+.cardBox {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,7 +39,7 @@
 
   color: var(--bg-color);
   font-weight: bold;
-  font-size: 0.96rem;
+  font-size: 15px;
 
   margin: 1rem;
   padding: 0.5rem;
@@ -68,7 +71,7 @@
   font-size: 1.5rem;
   padding-top: calc(1.25rem + 2px);
   text-align: center;
-  padding-bottom: calc(1.5rem)
+  padding-bottom: calc(1.7rem)
 }
 
 .cardText {
@@ -97,41 +100,32 @@
 }
 
 .centerContainer {
-  flex-grow: 1;
-  align-content: center;
+  display: flex;
 }
 
-@media (max-width: 1106px) {
-  .centerContainer {
-    position: absolute;
-  }
-  .imageWrapper {
-    justify-content: center;
-  }	  
-}
+
 @media (max-height: 630px) {
   .centerContainer {
     position: absolute;
   }
   .imageWrapper {
     justify-content: center;
-    align-items: center;
-  }	  
+  }
 }
 
 @media (max-width: 500px) {
+  .centerContainer {
+    position: absolute;
+  }
   .innerFriendBox {
-    padding: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-
-    width: 14rem;
+    width: 209px;
     height: 20rem;
   } 
   .card {
     width: 14rem;
     height: 20rem;
+  }
+  .container {
+    height: 100vh;
   }
 }

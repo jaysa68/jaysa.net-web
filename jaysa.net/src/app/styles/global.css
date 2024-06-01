@@ -102,5 +102,6 @@ a {
 @media (max-width: 500px) {
   .container {
     margin: 0px;
+    height: auto;
   }	  
 }
