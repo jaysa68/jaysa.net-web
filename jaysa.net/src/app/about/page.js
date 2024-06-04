@@ -53,7 +53,13 @@ export default function Home() {
         />
       </div>
       <div className={styles.quarterBox}> 
-        <img className={styles.foxGrovePic} src="/fox_grove_park.png" />
+        <Image 
+          src="/fox_grove_park.png" 
+          className={styles.foxGrovePic}
+          alt="i am sideways"
+          width={205}
+          height={168}
+        />
       </div>
       <div className={styles.quarterBox}> 
         <img className={styles.csfPic} src="/csf.png" />

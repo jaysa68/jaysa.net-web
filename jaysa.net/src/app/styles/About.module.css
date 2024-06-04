@@ -13,6 +13,8 @@
 .innerContainer {
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
 }
 
 .halfDiv {
@@ -36,6 +38,7 @@
   border: solid;
   border-width: 3px;
   border-color: #ebdbb2;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
 .penguinPic {
@@ -49,15 +52,15 @@
   border-color: #ebdbb2;
 
   width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
 .csfPic {
   border: solid;
   border-width: 3px;
-  padding: 10px;
   border-color: #d79921;
+  padding: 10px;
   width: 300px;
-
 }
 
 
@@ -67,7 +70,7 @@
   width: calc(50% - 40px);
 
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .quarterBox {
