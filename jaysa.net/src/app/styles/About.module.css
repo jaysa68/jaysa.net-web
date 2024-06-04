@@ -12,6 +12,7 @@
 
 .innerContainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .halfDiv {
@@ -29,4 +30,55 @@
 
 .pLink:hover {
   color: var(--bright-green);
+}
+
+.perpendicularPic {
+  border: solid;
+  border-width: 3px;
+  border-color: #ebdbb2;
+}
+
+.penguinPic {
+  width: 132px;
+  image-rendering: pixelated;
+}
+
+.foxGrovePic {
+  border: solid;
+  border-width: 3px;
+  border-color: #ebdbb2;
+
+  width: 200px;
+}
+
+.csfPic {
+  border: solid;
+  border-width: 3px;
+  padding: 10px;
+  border-color: #d79921;
+  width: 300px;
+
+}
+
+
+.imageBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(50% - 40px);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.quarterBox {
+  margin: 10px;
+}
+
+@media (max-width: 870px) {
+ .halfDiv {
+  width: 100%;
+ }
+ .imageBox {
+  width: 100%;
+ }
 }

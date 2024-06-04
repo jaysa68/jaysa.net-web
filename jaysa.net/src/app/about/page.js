@@ -37,10 +37,30 @@ export default function Home() {
         working on it :)
 
         </p>
+    </div>
+
+    <div className={styles.imageBox}>
+      <div className={styles.quarterBox}> 
+        <img className={styles.penguinPic} src="/real-waddles.png" />
       </div>
-      <div className={styles.halfDiv}>
+      <div className={styles.quarterBox}> 
+        <Image 
+          src="/perpendicular.jpg" 
+          className={styles.perpendicularPic}
+          alt="i am sideways"
+          width={330}
+          height={440}
+        />
+      </div>
+      <div className={styles.quarterBox}> 
+        <img className={styles.foxGrovePic} src="/fox_grove_park.png" />
+      </div>
+      <div className={styles.quarterBox}> 
+        <img className={styles.csfPic} src="/csf.png" />
       </div>
     </div>
+
+  </div>
   )
 }
 
