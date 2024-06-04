@@ -14,11 +14,14 @@
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+
   align-items: center;
+  justify-content: center;
 }
 
 .halfDiv {
   width: 50%;
+  max-width: 600px;
 }
 
 .pLink {
@@ -75,6 +78,14 @@
 
 .quarterBox {
   margin: 10px;
+  width: calc(50% - 20px);
+  text-align: center;
+}
+
+@media (max-width: 1600px) {
+ .quarterBox {
+   width: auto;
+ }
 }
 
 @media (max-width: 870px) {

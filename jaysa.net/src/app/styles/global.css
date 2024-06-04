@@ -92,6 +92,8 @@ body {
   flex-direction: column;
   margin: 16px;
   height: calc(100vh - 34px);
+
+  overflow: scroll;
 }
 
 a {

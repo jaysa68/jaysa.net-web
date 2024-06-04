@@ -15,6 +15,7 @@
   min-height: 0;
   min-width: 0;
   overflow-x: hidden;
+  justify-content: center;
 }
 
 
@@ -111,6 +112,9 @@
   .imageWrapper {
     justify-content: center;
   }
+  .container {
+    overflow: scroll;
+  }
 }
 
 @media (max-width: 500px) {
@@ -125,7 +129,7 @@
     width: 14rem;
     height: 20rem;
   }
-  .imageWrapper {
-    justify-content: center;
+  .container {
+    overflow: scroll;
   }
 }
