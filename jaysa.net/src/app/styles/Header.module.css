@@ -31,8 +31,6 @@
   justify-content: space-between;
   background-color: var(--gray);
   color: var(--bg-color);
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 @media (max-width: 674px) {
