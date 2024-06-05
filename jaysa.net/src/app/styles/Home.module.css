@@ -104,13 +104,19 @@
   display: flex;
 }
 
-
-@media (max-height: 630px) {
+@media (max-aspect-ratio: 4/3) {
   .centerContainer {
     position: absolute;
   }
   .imageWrapper {
-    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media (max-height: 630px) {
+  .centerContainer {
+    position: absolute;
   }
   .container {
     overflow: scroll;
