@@ -9,7 +9,7 @@ export default function Home() {
         <p className={styles.text}>
 
         Hi! My name is Jaysa Garcia. I'm a second-year undergraduate student at UC
-        Berkeley. I study English and, if they'll let me, Computer Science. 
+        Berkeley. I study English and Computer Science. 
 
         <br/><br/>
 
