@@ -8,6 +8,11 @@
   src: local('DatangStory'), url(../fonts/DatangStory.otf) format('opentype');
 }
 
+@font-face {
+  font-family: 'LibreBaskerville';
+  src: local('LibreBaskerville'), url(../fonts/LibreBaskerville-Regular.ttf) format('truetype');
+}
+
 .imageWrapper {
   display: flex;
   flex-grow: 1;

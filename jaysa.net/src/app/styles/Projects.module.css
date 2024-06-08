@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'LibreBaskerville';
+  src: local('LibreBaskerville'), url(../fonts/LibreBaskerville-Regular.ttf) format('truetype');
+}
+
+.projectsWrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerBox {
+  border: solid;
+  border-width: 1px;
+  border-color: var(--fg-color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+
+  margin: 10px;
+  max-width: 750px;
+}
+
+.projectBox {
+/*  background-image: radial-gradient(var(--fg4-color) 1px, transparent 0);
+  background-size: 24px 24px; */
+
+  margin: 20px;
+}
+
+.title {
+  font-family:"LibreBaskerville";
+  margin: 0;
+  font-size: 1.2rem;
+  padding-bottom: 8px;
+}
+
+.facts {
+  font-family:"LibreBaskerville";
+  margin: 0;
+}
+
+.factsLi {
+  margin-bottom: 5px;
+}
+
+.link {
+  color: var(--green);
+  text-decoration: none;
+}
+
+.link:visited {
+  color: var(--green);
+}
+
+.link:hover {
+  color: var(--bright-green);
+}

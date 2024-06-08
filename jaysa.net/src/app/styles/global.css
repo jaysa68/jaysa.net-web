@@ -104,5 +104,6 @@ a {
   .container {
     margin: 0px;
     height: auto;
+    min-height: calc(100vh - 2px);
   }	  
 }

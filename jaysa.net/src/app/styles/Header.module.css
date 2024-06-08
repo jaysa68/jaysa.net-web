@@ -21,7 +21,7 @@
 }
 
 .headerLink:hover {
-  color: var(--bg1-color);
+  color: var(--bg2-color);
 }
 
 .container {
