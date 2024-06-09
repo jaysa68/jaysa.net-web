@@ -93,7 +93,7 @@ body {
   margin: 16px;
   height: calc(100vh - 34px);
 
-  overflow: scroll;
+  overflow: auto;
 }
 
 a {
