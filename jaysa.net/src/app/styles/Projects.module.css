@@ -35,6 +35,10 @@
   padding-bottom: 8px;
 }
 
+.title:visited {
+  color: var(--fg-color);
+}
+
 .facts {
   font-family:"LibreBaskerville";
   margin: 0;
