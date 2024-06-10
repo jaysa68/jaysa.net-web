@@ -20,7 +20,7 @@ export default function Projects() {
     </ProjectBox>
 
     <ProjectBox title="This Website">
-        <li className={styles.factsLi}><a className={styles.link} href="https://github.com/jaysa68/jaysa.net-web">Source code</a> and <a className={styles.link} href="https://github.com/morhetz/gruvbox">Color scheme</a></li>
+        <li className={styles.factsLi}><a className={styles.link} href="https://github.com/jaysa68/jaysa.net-web">Source code</a> and <a className={styles.link} href="https://github.com/morhetz/gruvbox">color scheme</a></li>
         <li className={styles.factsLi}>I made jaysa.net so I could learn React and Next.js (I've still got a ways to go). Also, many of my friends have cool personal websites, and I wanted to have one too :^)</li>
         <li className={styles.factsLi}>Aside from the websites in The Buddy Box, I spend a lot of time admiring <a className={styles.link} href="https://owltastic.com/">owltastic.com</a> and nearly everything that's on <a className={styles.link} href="https://neocities.org/">neocities.org</a>.
         </li>
