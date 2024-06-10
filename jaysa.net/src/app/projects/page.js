@@ -15,7 +15,7 @@ export default function Projects() {
     </ProjectBox>
 
     <ProjectBox title=<a className={styles.link} href="https://berkeleyfee.org">berkeleyfee.org</a>>
-        <li className={styles.factsLi}>A website I made for the Committee on Student Fees to visualize how the UC Berkeley allocates student dollars. It uses React, Next.js, and also the Recharts library.</li>
+        <li className={styles.factsLi}>A website I made for the Committee on Student Fees to visualize how UC Berkeley allocates student dollars. It uses React, Next.js, and also the Recharts library.</li>
         <li className={styles.factsLi}>It's more of a proof-of-concept at the moment... I'll polish it up soon. I'd like to make it great before I graduate.</li>
     </ProjectBox>
 
