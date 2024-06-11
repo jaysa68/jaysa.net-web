@@ -6,7 +6,8 @@
 .text {
   font-family:"LibreBaskerville";
   margin: 1rem;
-  font-size: 0.9rem;
+  margin-right: 4rem;
+  font-size: 1rem;
   line-height: 175%;
 }
 
@@ -95,5 +96,8 @@
  .imageBox {
   width: 100%;
   justify-content: center;
+ }
+ .text {
+   margin-right: 1rem;
  }
 }

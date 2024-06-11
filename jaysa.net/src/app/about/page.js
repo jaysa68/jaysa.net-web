@@ -29,13 +29,6 @@ export default function Home() {
         When I got home, I'd join a voice chat with my friends and play more games
         until late into the night. I've been a bit too busy in college to continue
         this habit... but I'll bring it back soon.
-
-        <br/><br/>
-
-        I built this website with React and Next.js, and it is running out of my
-        homelab (a re-purposed gaming PC) using NGINX and Docker. I will keep
-        working on it :)
-
         </p>
     </div>
 
