@@ -26,7 +26,7 @@ export default function Header() {
         />
         <HeaderLink
           name="blog"
-          url="/blog"
+          url="http://blog.jaysa.net"
         />
       </div>
     </div>
