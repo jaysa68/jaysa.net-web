@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.halfDiv}>
         <p className={styles.text}>
 
-        Hi! My name is Jaysa Garcia. I'm a second-year undergraduate student at UC
+        Hi! My name is Jaysa Garcia. I'm an incoming third-year undergraduate student at UC
         Berkeley. I study English and Computer Science. 
 
         <br/><br/>
@@ -38,18 +38,18 @@ export default function Home() {
       </div>
       <div className={styles.quarterBox}> 
         <Image 
-          src="/perpendicular.jpg" 
+          src="/hdmi-jaysa.jpg" 
           className={styles.perpendicularPic}
-          alt="i am sideways"
-          width={330}
-          height={440}
+          alt="jaysa plugging in a monitor"
+          width={325}
+          height={433}
         />
       </div>
       <div className={styles.quarterBox}> 
         <Image 
           src="/fox_grove_park.png" 
           className={styles.foxGrovePic}
-          alt="i am sideways"
+          alt="jaysa feeding some cats"
           width={205}
           height={168}
         />
