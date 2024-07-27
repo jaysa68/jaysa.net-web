@@ -17,6 +17,9 @@ const overflowStyle = {
   }
 }
 
+//<p className={styles.cardText}><img className={styles.icon} src='/github-icon.png' />jaysa68</p>
+//<p className={styles.cardText}><img className={styles.icon} src='/linkedin-icon.png' />jaysa-garcia</p>
+
 import Image from'next/image'
 
 export default function Home() {
@@ -43,8 +46,6 @@ export default function Home() {
                <p className={styles.cardTitle}>Finding Jaysa</p>
                <p className={styles.cardText}><img className={styles.icon} src='/mail-icon.png' />contact@jaysa.net</p>
                <p className={styles.cardText}><img className={styles.icon} src='/signal-icon.png' />jaysa.88</p>
-               <p className={styles.cardText}><img className={styles.icon} src='/github-icon.png' />jaysa68</p>
-               <p className={styles.cardText}><img className={styles.icon} src='/linkedin-icon.png' />jaysa-garcia</p>
             </div>
             <div className={styles.innerFriendBox}>
                <FriendsList />
