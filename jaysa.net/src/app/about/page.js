@@ -8,18 +8,15 @@ export default function Home() {
       <div className={styles.halfDiv}>
         <p className={styles.text}>
 
-        Hi! My name is Jaysa Garcia. I'm an incoming third-year undergraduate student at UC
+        Hi! My name is Jaysa Garcia. I'm a third-year undergraduate student at UC
         Berkeley. I study English and Computer Science. 
 
         <br/><br/>
 
-        When I'm not in class, I'm involved at a student-run computer lab called
-        the <Link className={styles.pLink} href="https://www.ocf.berkeley.edu/">Open Computing Facility</Link>,
-        which I love very dearly. I also have my on-campus job with the <Link
-        href="https://csf.berkeley.edu/" className={styles.pLink}>Committee For Student Fees</Link>, where I do
-        a lot of student fee related work, if you can believe it. Finally, I
-        volunteer for <Link className={styles.pLink} href="https://sweplusplus.github.io/">SWE++</Link>, a weekly class that teaches coding to middle school
-        girls.
+        When I'm not in class, I'm nearly always at the
+        <Link className={styles.pLink} href="https://www.ocf.berkeley.edu/"> Open Computing Facility</Link>,
+        a student-run computer lab which I love very dearly. I also have my part-time campus job with the <Link
+        href="https://csf.berkeley.edu/" className={styles.pLink}>Committee For Student Fees</Link>.
 
         <br/><br/>
 
@@ -32,29 +29,29 @@ export default function Home() {
         </p>
     </div>
 
-    <div className={styles.imageBox}>
+    <div className={styles.imageBox} title="my rendition of the OCF mascot, Waddles">
       <div className={styles.quarterBox}> 
         <img className={styles.penguinPic} src="/real-waddles.png" />
       </div>
-      <div className={styles.quarterBox}> 
+      <div className={styles.quarterBox} title="...by the horns"> 
         <Image 
-          src="/hdmi-jaysa.jpg" 
+          src="/jaysa-pics/android.jpg" 
           className={styles.perpendicularPic}
-          alt="jaysa plugging in a monitor"
+          alt="jaysa grabbing the green android guy"
           width={325}
           height={433}
         />
       </div>
-      <div className={styles.quarterBox}> 
+      <div className={styles.quarterBox} title="demonaaaaa!!! im sorry for forgetting the top coat"> 
         <Image 
-          src="/fox_grove_park.png" 
+          src="/jaysa-pics/taco-switch-nails.png" 
           className={styles.foxGrovePic}
-          alt="jaysa feeding some cats"
-          width={205}
-          height={168}
+          alt="jaysa painting demona's nails"
+          width={239.5}
+          height={159.75}
         />
       </div>
-      <div className={styles.quarterBox}> 
+      <div className={styles.quarterBox} title="every dollar from students and their families should be spent wisely"> 
         <img className={styles.csfPic} src="/csf.png" />
       </div>
     </div>
