@@ -8,8 +8,12 @@ export default function Home() {
       <div className={styles.halfDiv}>
         <p className={styles.text}>
 
-        Hi! My name is Jaysa Garcia. I'm a third-year undergraduate student at UC
-        Berkeley. I study English and Computer Science. 
+	Hi! My name is Jaysa Garcia. I'm a third-year undergraduate student at
+	  UC Berkeley. I study English and Computer Science. I'll be working as
+	  an intern on infrastructure and DevOps stuff at <Link
+	  className={styles.pLink}
+	  href="https://en.wikipedia.org/wiki/Blackhawk_Network_Holdings">
+	  Blackhawk Network</Link> this summer.
 
         <br/><br/>
 
@@ -33,25 +37,25 @@ export default function Home() {
       <div className={styles.quarterBox}> 
         <img className={styles.penguinPic} src="/real-waddles.png" />
       </div>
-      <div className={styles.quarterBox} title="...by the horns"> 
+      <div className={styles.quarterBox} title="at any given moment.....im probably doing this"> 
         <Image 
-          src="/jaysa-pics/android.jpg" 
+          src="/jaysa-pics/about-to-fail-midterm.jpg" 
           className={styles.perpendicularPic}
-          alt="jaysa grabbing the green android guy"
-          width={325}
-          height={433}
+          alt="jaysa at an ocf computer"
+          width={400}
+          height={400}
         />
       </div>
-      <div className={styles.quarterBox} title="demonaaaaa!!! im sorry for forgetting the top coat"> 
+      <div className={styles.quarterBox} title="attending the beach"> 
         <Image 
-          src="/jaysa-pics/taco-switch-nails.png" 
-          className={styles.foxGrovePic}
-          alt="jaysa painting demona's nails"
-          width={239.5}
-          height={159.75}
+          src="/jaysa-pics/beach-thumbs-up.jpg" 
+          className={styles.perpendicularPic}
+          alt="jaysa standing at the beach"
+          width={250}
+          height={250}
         />
       </div>
-      <div className={styles.quarterBox} title="every dollar from students and their families should be spent wisely"> 
+      <div className={styles.quarterBox} title="every dollar from students and their families should be spent wisely!"> 
         <img className={styles.csfPic} src="/csf.png" />
       </div>
     </div>
