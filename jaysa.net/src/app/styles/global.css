@@ -73,6 +73,7 @@
 body {
   background-color: #3c3836;
   color: #ebdbb2;
+  background-image: url('/sky-tile.jpg');
 
   margin: 0;
   padding: 0;
