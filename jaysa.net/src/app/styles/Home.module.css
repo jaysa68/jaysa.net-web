@@ -57,6 +57,7 @@
   border-color: var(--fg-color);
   border-top-color: var(--bright-gray);
   border-right-color: var(--bright-gray);
+  image-rendering: pixelated;
 }
 
 .card {
