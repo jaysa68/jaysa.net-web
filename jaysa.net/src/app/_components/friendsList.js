@@ -22,6 +22,11 @@ export default function FriendsList() {
       url="https://www.ocf.berkeley.edu/"
     />
     <FriendBadge 
+      name="ocf decal"
+      image="/88x31/ocfdecal.png"
+      url="https://ocf.io/decal"
+    />
+    <FriendBadge 
       name="bencuan"
       image="/88x31/bencuan.gif"
       url="https://bencuan.me/"
@@ -46,14 +51,14 @@ export default function FriendsList() {
       image="/88x31/yolkgirl.gif"
       url="https://trinityjchung.com"
     />
+    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
+	  <p>The Buddy Box</p>
+    </div>
     <FriendBadge 
       name="adym"
       image="/88x31/adym.png"
       url="https://anna.dymchenko.com/"
     />
-    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
-	  <p>The Buddy Box</p>
-    </div>
     <FriendBadge 
       name="lemurseven"
       image="/88x31/michael.gif"
