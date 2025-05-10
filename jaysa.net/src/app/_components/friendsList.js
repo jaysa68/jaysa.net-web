@@ -79,6 +79,11 @@ export default function FriendsList() {
       image="/88x31/storce.png"
       url="https://joewang.me"
     />
+    <FriendBadge 
+      name="leo"
+      image="/88x31/leo.gif"
+      url="https://6c656f.io"
+    />
     </>
   )
 }
