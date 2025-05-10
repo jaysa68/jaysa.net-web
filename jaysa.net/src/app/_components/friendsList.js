@@ -36,9 +36,6 @@ export default function FriendsList() {
       image="/88x31/billmao.jpg"
       url="https://billmao.net/"
     />
-    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
-	  <p>The Buddy Box</p>
-    </div>
     <FriendBadge 
       name="oliverni"
       image="/88x31/oliver.png"
@@ -54,6 +51,9 @@ export default function FriendsList() {
       image="/88x31/adym.png"
       url="https://anna.dymchenko.com/"
     />
+    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
+	  <p>The Buddy Box</p>
+    </div>
     <FriendBadge 
       name="lemurseven"
       image="/88x31/michael.gif"
