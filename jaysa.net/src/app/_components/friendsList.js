@@ -36,7 +36,7 @@ export default function FriendsList() {
       image="/88x31/billmao.jpg"
       url="https://billmao.net/"
     />
-    <div style={{width: "102px", height: "45px"}}>
+    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
 	  <p>The Buddy Box</p>
     </div>
     <FriendBadge 
