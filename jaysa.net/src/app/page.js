@@ -1,5 +1,6 @@
 import styles from './styles/Home.module.css';
 import FriendsList from './_components/friendsList.js'
+import QuickLinks from './_components/quickLinks.js'
 
 export const metadata = {
   title: 'jaysa.net',
@@ -50,6 +51,9 @@ export default function Home() {
             <div className={styles.innerFriendBox}>
                <FriendsList />
             </div>
+	    <div>
+	       <QuickLinks />
+	    </div>
           </div>
 	</div>
 

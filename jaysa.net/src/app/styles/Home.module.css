@@ -88,6 +88,32 @@
   padding-bottom: 1px;
 }
 
+.quickLinks {
+  font-family:"DatangStory";
+  background-color: var(--bright-yellow);
+  color: var(--bg-color);
+  height: calc(13rem + 22px);
+  width: calc(13rem + 22px);
+  margin: 16px;
+  box-shadow: -2px 2px 15px 0 rgba(0, 0, 0, 0.5);
+  transform: rotate(2deg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
+  font-size: 1.2rem;
+}
+
+.Link {
+  text-decoration: none;
+  color: var(--bg-color);
+}
+
+.Link:hover {
+  color: var(--bright-gray);
+}
+
 .icon {
   width: 1rem;
   height: 1rem;
