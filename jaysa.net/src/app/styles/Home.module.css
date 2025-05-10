@@ -35,7 +35,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 20rem;
-  height: 13rem;
   gap: 5px;
 
   background-color: var(--gray);
@@ -45,7 +44,7 @@
 
   color: var(--bg-color);
   font-weight: bold;
-  font-size: 15px;
+  font-size: small;
 
   margin: 1rem;
   padding: 0.5rem;
