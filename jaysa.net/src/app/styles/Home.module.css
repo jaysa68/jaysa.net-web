@@ -138,6 +138,7 @@
 @media (max-aspect-ratio: 41/29) {
   .centerContainer {
     position: absolute;
+    padding-top: 60px;
   }
   .imageWrapper {
     align-items: center;
@@ -157,6 +158,7 @@
 @media (max-width: 500px) {
   .centerContainer {
     position: absolute;
+    padding-top: 100px;
   }
   .innerFriendBox {
     width: 209px;
