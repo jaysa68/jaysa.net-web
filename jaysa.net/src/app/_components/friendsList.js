@@ -37,9 +37,9 @@ export default function FriendsList() {
       url="https://rjz.lol/"
     />
     <FriendBadge 
-      name="billqmao"
-      image="/88x31/billmao.jpg"
-      url="https://billmao.net/"
+      name="kinn"
+      image="/88x31/kinn.gif"
+      url="https://classic.kinn.dev"
     />
     <FriendBadge 
       name="oliverni"
@@ -98,6 +98,16 @@ export default function FriendsList() {
       name="sawansri"
       image="/88x31/sawansri.png"
       url="https://sawansri.com"
+    />
+    <FriendBadge 
+      name="aly"
+      image="/88x31/albert.png"
+      url="https://albie.cat"
+    />
+    <FriendBadge 
+      name="nixos"
+      image="/88x31/nixos.png"
+      url="https://nixos.org"
     />
     </>
   )
