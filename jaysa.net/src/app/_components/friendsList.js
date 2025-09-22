@@ -89,6 +89,11 @@ export default function FriendsList() {
       image="/88x31/leo.gif"
       url="https://6c656f.io"
     />
+    <FriendBadge 
+      name="cli"
+      image="/88x31/cli.png"
+      url="https://chenghao.li"
+    />
     </>
   )
 }
