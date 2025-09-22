@@ -94,6 +94,11 @@ export default function FriendsList() {
       image="/88x31/cli.png"
       url="https://chenghao.li"
     />
+    <FriendBadge 
+      name="sawansri"
+      image="/88x31/sawansri.png"
+      url="https://sawansri.com"
+    />
     </>
   )
 }
