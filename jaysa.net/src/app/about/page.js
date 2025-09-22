@@ -8,12 +8,8 @@ export default function Home() {
       <div className={styles.halfDiv}>
         <p className={styles.text}>
 
-	Hi! My name is Jaysa Garcia. I'm a third-year undergraduate student at
-	  UC Berkeley. I study English and Computer Science. I'll be working as
-	  an intern on infrastructure and DevOps stuff at <Link
-	  className={styles.pLink}
-	  href="https://en.wikipedia.org/wiki/Blackhawk_Network_Holdings">
-	  Blackhawk Network</Link> this summer.
+	Hi! My name is Jaysa Garcia. I'm a fourth-year undergraduate student at
+	  UC Berkeley. I study English and Computer Science.
 
         <br/><br/>
 
@@ -30,6 +26,8 @@ export default function Home() {
         When I got home, I'd join a voice chat with my friends and play more games
         until late into the night. I've been a bit too busy in college to continue
         this habit... but I'll bring it back soon.
+
+        I'm currently looking for a job or internship after I graduate in May 2026. If you're interested or know of a company I should apply to, please shoot me an email at [contact@jaysa.net](mailto:contact@jaysa.net).
         </p>
     </div>
 
