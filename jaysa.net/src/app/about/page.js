@@ -27,7 +27,9 @@ export default function Home() {
         until late into the night. I've been a bit too busy in college to continue
         this habit... but I'll bring it back soon.
 
-        I'm currently looking for a job or internship after I graduate in May 2026. If you're interested or know of a company I should apply to, please shoot me an email at [contact@jaysa.net](mailto:contact@jaysa.net).
+        <br/><br/>
+
+        I'm currently looking for a job or internship after I graduate in May 2026. If you're interested in hiring me or know of a company I should apply to, please shoot me an email at <Link href="mailto:contact@jaysa.net" className={styles.pLink}>contact@jaysa.net</Link>.
         </p>
     </div>
 
