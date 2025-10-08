@@ -109,6 +109,11 @@ export default function FriendsList() {
       image="/88x31/nixos.png"
       url="https://nixos.org"
     />
+    <FriendBadge 
+      name="lavanya"
+      image="/88x31/lavanya.png"
+      url="https://lavanya.dev"
+    />
     </>
   )
 }
