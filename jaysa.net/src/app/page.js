@@ -1,12 +1,11 @@
 import styles from './styles/Home.module.css';
 import FriendsList from './_components/friendsList.js'
 import QuickLinks from './_components/quickLinks.js'
-import 
 
 export const metadata = {
   title: 'jaysa.net',
-  keywords: ['Jaysa', 'Jaysa Garcia', 'jaysa.net']
-  description: 'Jaysa \'s personal website. Check out links to other things I\'ve worked on, the websites of my friends inside The Buddy Box, and other extra details about me :)';
+  keywords: ['Jaysa', 'Jaysa Garcia', 'jaysa.net'],
+  description: 'Jaysa\'s personal website. Check out links to other things I\'ve worked on, the websites of my friends inside The Buddy Box, and other extra details about me :)'
 }
 
 
