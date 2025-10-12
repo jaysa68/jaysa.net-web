@@ -8,6 +8,9 @@ export default function Home() {
       <div className={styles.halfDiv}>
         <p className={styles.text}>
 
+        ╔═══════════════*.·:·.☽✧&nbsp;&nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;&nbsp;✧☾.·:·.*═══════════════╗
+        <br/>
+
 	Hi! My name is Jaysa Garcia. I'm a fourth-year undergraduate student at
 	  UC Berkeley. I study English and Computer Science.
 
@@ -18,7 +21,7 @@ export default function Home() {
         a student-run computer lab which I love very dearly. I also have my part-time campus job with the <Link
         href="https://csf.berkeley.edu/" className={styles.pLink}>Committee For Student Fees</Link>.
 
-        <br/><br/>
+        <br/>⠄⠂ ⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂ ⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂ ⠂⠄⠂⠁⠁⠂⠄⠂☆<br/>
 
         I grew up right on the edge of Turlock, which is a mid-sized
         town in the Central Valley of California. In high school, I was co-president of the Game
@@ -27,11 +30,25 @@ export default function Home() {
         until late into the night. I've been a bit too busy in college to continue
         this habit... but I'll bring it back soon.
 
-        <br/><br/>
+        <br/>-──────────────────── ⋆⋅☆⋅⋆ ───────────────────-<br/>
 
         I'm currently looking for a job or internship after I graduate in May 2026. If you're interested in hiring me or know of a company I should apply to, please shoot me an email at <Link href="mailto:contact@jaysa.net" className={styles.pLink}>contact@jaysa.net</Link>.
-        </p>
-    </div>
+        ╚═══════════════*.·:·.☽✧&nbsp;&nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;&nbsp;✧☾.·:·.*═══════════════╝
+        ——————————
+        <br/>
+        ┊┊┊┊ ➶ ❁۪ ｡˚  ✧
+        <br/>
+        ┊┊┊✧ ⁺    ⁺ 　°
+        <br/>
+        ┊┊❁ཻུ۪۪♡ ͎. ｡˚  　　°
+        <br/>
+        ┊┊.
+        <br/>
+        ┊ ➶ ｡˚  　　°
+        <br/>
+        *.           *    ·
+
+        </p> </div>
 
     <div className={styles.imageBox} title="my rendition of the OCF mascot, Waddles">
       <div className={styles.quarterBox}> 

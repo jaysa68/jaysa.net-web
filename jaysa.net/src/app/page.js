@@ -45,8 +45,10 @@ export default function Home() {
           <div className={styles.cardBox}>
             <div className={styles.card}>
                <p className={styles.cardTitle}>Finding Jaysa</p>
-               <p className={styles.cardText}><img className={styles.icon} src='/mail-icon.png' />contact@jaysa.net</p>
-               <p className={styles.cardText}><img className={styles.icon} src='/signal-icon.png' />jaysa.88</p>
+               <a href="mailto:contact@jaysa.net"><p className={styles.cardText}><img className={styles.icon} src='/envelope.svg' />contact@jaysa.net</p></a>
+               <a href="https://signal.me/#eu/DV4BfjYvhqW6hsIRUiwMnZ6mOFa1ilhJ6RQWW2Gpfgu0DbAjKjtGmJaLclQMpAlp"><p className={styles.cardText}><img className={styles.icon} src='/signal.svg' />jaysa.88</p></a>
+               <a href="https://github.com/jaysa68"><p className={styles.cardText}><img className={styles.icon} src='/github.svg' />jaysa68</p></a>
+               <a href="https://discord.com/users/202542121247440896"><p className={styles.cardText}><img className={styles.icon} src='/discord.svg' />evil_girl_making_laggy_chairs</p></a>
             </div>
             <div className={styles.innerFriendBox}>
                <FriendsList />

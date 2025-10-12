@@ -25,6 +25,10 @@ export default function Header() {
           url="/projects"
         />
         <HeaderLink
+          name="emoticons"
+          url="/emoticons"
+        />
+        <HeaderLink
           name="blog"
           url="http://blog.jaysa.net"
         />
