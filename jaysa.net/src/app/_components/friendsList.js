@@ -114,6 +114,11 @@ export default function FriendsList() {
       image="/88x31/lavanya.png"
       url="https://lavanya.dev"
     />
+    <FriendBadge 
+      name="gianna caudillo"
+      image="/88x31/gianna.gif"
+      url="https://giannacaudillo.myportfolio.com"
+    />
     </>
   )
 }
