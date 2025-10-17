@@ -116,7 +116,7 @@ export default function FriendsList() {
     />
     <FriendBadge 
       name="gianna caudillo"
-      image="/88x31/gianna.gif"
+      image="/88x31/gianna.png"
       url="https://giannacaudillo.myportfolio.com"
     />
     </>
