@@ -14,7 +14,7 @@ export default function Home() {
 	Hi! My name is Jaysa Garcia. I'm a fourth-year undergraduate student at
 	  UC Berkeley. I study English and Computer Science.
 
-        <br/><br/>
+        <br/>-──────────────────── ⋆⋅☆⋅⋆ ───────────────────-<br/>
 
         When I'm not in class, I'm nearly always at the
         <Link className={styles.pLink} href="https://www.ocf.berkeley.edu/"> Open Computing Facility</Link>,
@@ -30,9 +30,7 @@ export default function Home() {
         until late into the night. I've been a bit too busy in college to continue
         this habit... but I'll bring it back soon.
 
-        <br/>-──────────────────── ⋆⋅☆⋅⋆ ───────────────────-<br/>
 
-        I'm currently looking for a job or internship after I graduate in May 2026. If you're interested in hiring me or know of a company I should apply to, please shoot me an email at <Link href="mailto:contact@jaysa.net" className={styles.pLink}>contact@jaysa.net</Link>.
         ╚═══════════════*.·:·.☽✧&nbsp;&nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;&nbsp;✧☾.·:·.*═══════════════╝
         ——————————
         <br/>
