@@ -119,6 +119,11 @@ export default function FriendsList() {
       image="/88x31/gianna.png"
       url="https://giannacaudillo.myportfolio.com"
     />
+    <FriendBadge 
+      name="erdaifuu"
+      image="/88x31/erdaifuu.png"
+      url="https://erdaifuu.com/"
+    />
     </>
   )
 }
