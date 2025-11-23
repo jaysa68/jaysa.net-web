@@ -15,7 +15,7 @@ export default function Header() {
         name="jaysa.net"
         url="/"
       />
-      <div>
+      <div className={styles.headerTabs}>
         <HeaderLink
           name="about"
           url="/about"
