@@ -51,9 +51,6 @@ export default function FriendsList() {
       image="/88x31/yolkgirl.gif"
       url="https://trinityjchung.com"
     />
-    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
-	  <p>The Buddy Box</p>
-    </div>
     <FriendBadge 
       name="adym"
       image="/88x31/adym.png"
@@ -69,6 +66,9 @@ export default function FriendsList() {
       image="/88x31/tiffsun.png"
       url="https://vimeo.com/943936691"
     />
+    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
+	  <p>The Buddy Box</p>
+    </div>
     <FriendBadge 
       name="njha"
       image="/88x31/njha.png"
@@ -123,6 +123,11 @@ export default function FriendsList() {
       name="erdaifuu"
       image="/88x31/erdaifuu.png"
       url="https://erdaifuu.com/"
+    />
+    <FriendBadge 
+      name="felix"
+      image="/88x31/felix.png"
+      url="https://ibuprofenbunny.neocities.org/"
     />
     </>
   )
