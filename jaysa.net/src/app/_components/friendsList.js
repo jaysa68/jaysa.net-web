@@ -129,6 +129,11 @@ export default function FriendsList() {
       image="/88x31/felix.png"
       url="https://ibuprofenbunny.neocities.org/"
     />
+    <FriendBadge 
+      name="chamburr"
+      image="/88x31/han.gif"
+      url="https://chamburr.com/"
+    />
     </>
   )
 }
