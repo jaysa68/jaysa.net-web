@@ -18,8 +18,8 @@ export default function Home() {
 
         When I'm not in class, I'm nearly always at the
         <Link className={styles.pLink} href="https://www.ocf.berkeley.edu/"> Open Computing Facility</Link>,
-        a student-run computer lab which I love very dearly. I also have my part-time campus job with the <Link
-        href="https://csf.berkeley.edu/" className={styles.pLink}>Committee For Student Fees</Link>.
+        a student-run computer lab which I love very dearly. I'm also working part-time on platform engineering type stuff at <Link
+        href="https://www.arini.ai/" className={styles.pLink}>Arini</Link> until May.
 
         <br/>⠄⠂ ⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂ ⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂ ⠂⠄⠂⠁⠁⠂⠄⠂☆<br/>
 
@@ -70,8 +70,8 @@ export default function Home() {
           height={250}
         />
       </div>
-      <div className={styles.quarterBox} title="every dollar from students and their families should be spent wisely!"> 
-        <img className={styles.csfPic} src="/csf.png" />
+      <div className={styles.quarterBox} title="a parrot... because they talk back to you or something... like a voice agent ooooo"> 
+        <img className={styles.csfPic} src="/arini-gruvbox.png" />
       </div>
     </div>
 
