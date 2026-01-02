@@ -11,6 +11,7 @@
   padding: 3px;
   flex: 1;
   background-color: var(--bg1-color);
+  max-width: 9.5rem;
 }
 
 .homelabThumbnail {
