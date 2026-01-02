@@ -45,6 +45,8 @@ export default function Projects() {
     </ProjectBox>
     <ProjectBox title="AUDREY" subtitle="Thinkpad X220T" imgSrc="/homelab-thumbnails/audrey.png">
     </ProjectBox>
+    <ProjectBox title="NIKKI" subtitle="OCF Staff VM" imgSrc="/homelab-thumbnails/nikki.png">
+    </ProjectBox>
   </div>
   </div>
   )
