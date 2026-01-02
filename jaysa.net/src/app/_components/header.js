@@ -21,8 +21,8 @@ export default function Header() {
           url="/about"
         />
         <HeaderLink
-          name="projects"
-          url="/projects"
+          name="homelab"
+          url="/homelab"
         />
         <HeaderLink
           name="emoticons"

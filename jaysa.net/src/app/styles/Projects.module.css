@@ -3,36 +3,72 @@
   src: local('LibreBaskerville'), url(../fonts/LibreBaskerville-Regular.ttf) format('truetype');
 }
 
+.infobox {
+  border: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: var(--bg-color);
+  padding: 3px;
+  flex: 1;
+  background-color: var(--bg1-color);
+}
+
+.homelabThumbnail {
+  border: solid;
+  border-width: 2px;
+  border-color: var(--bg-color);
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: var(--bg1-color);
+}
+
 .projectsWrapper {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+
 }
 
 .outerBox {
   border: solid;
-  border-width: 1px;
-  border-color: var(--fg-color);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  border-width: 2px;
+  border-color: var(--bg3-color);
+  border-radius: 15px;
 
   margin: 10px;
-  max-width: 750px;
+  width: 300px;
+  background-color: var(--bg2-color);
+}
+
+.outerBox:hover {
+  transform: scale(1.03);
+  background-color: var(--bg3-color);
+  border-color: var(--bg4-color);
 }
 
 .projectBox {
 /*  background-image: radial-gradient(var(--fg4-color) 1px, transparent 0);
   background-size: 24px 24px; */
 
-  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  color: var(--fg-color);
 }
 
 .title {
   font-family:"LibreBaskerville";
-  margin: 0;
   font-size: 1.2rem;
-  padding-bottom: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--gray);
 }
 
 .title:visited {
@@ -41,11 +77,10 @@
 
 .facts {
   font-family:"LibreBaskerville";
-  margin: 0;
+  width: 50%;
 }
 
 .factsLi {
-  margin-bottom: 5px;
 }
 
 .link {
