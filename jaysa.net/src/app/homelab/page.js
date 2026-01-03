@@ -10,7 +10,7 @@ export default function Projects() {
   <p>WORK IN PROGRESS. NOT ALL LINKS WORK YET</p>
   <div className={styles.projectsWrapper}>
 
-    <ProjectBox title="JAYSACRAFT" subtitle="minecraft.jaysa.net" imgSrc="/homelab-thumbnails/controller.png">
+    <ProjectBox title="JAYSACRAFT" subtitle="minecraft.jaysa.net" imgSrc="/homelab-thumbnails/controller.png" projLink="https://blog.jaysa.net/2026/01/02/jaysacraft/">
     </ProjectBox>
     <ProjectBox title="HUNIEBEE" subtitle="huniebee.jaysa.net" imgSrc="/homelab-thumbnails/rose.png" projLink="https://huniebee.jaysa.net/status/all">
     </ProjectBox>
