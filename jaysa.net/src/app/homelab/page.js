@@ -28,7 +28,7 @@ export default function Projects() {
         <li className={styles.factsLi}>A website I made for the Committee on Student Fees to visualize how UC Berkeley allocates student dollars. It uses React, Next.js, and also the Recharts library.</li>
         <li className={styles.factsLi}>It's more of a proof-of-concept at the moment... I'll polish it up soon. I'd like to make it great before I graduate.</li>
     </ProjectBox>
-    <ProjectBox title="OUTLINE" subtitle="docs.jaysa.net" imgSrc="/homelab-thumbnails/pens.png" projLink="https://docs.jaysa.net">
+    <ProjectBox title="OUTLINE" subtitle="docs.jaysa.net" imgSrc="/homelab-thumbnails/pens.png" projLink="https://docs.jaysa.net/s/ec38a06e-e604-459a-b1ac-315147eb04dd">
     </ProjectBox>
   </div>
   <hr/>
