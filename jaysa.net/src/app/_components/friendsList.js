@@ -142,7 +142,7 @@ export default function FriendsList() {
     <FriendBadge 
       name="lukegon"
       image="/88x31/lukevim.png"
-      url="https://https://lukegonsalves.com/"
+      url="https://lukegonsalves.com/"
     />
     </>
   )
