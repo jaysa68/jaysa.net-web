@@ -134,6 +134,16 @@ export default function FriendsList() {
       image="/88x31/han.gif"
       url="https://chamburr.com/"
     />
+    <FriendBadge 
+      name="rsang"
+      image="/88x31/rsang.png"
+      url="https://rsang.me/"
+    />
+    <FriendBadge 
+      name="lukegon"
+      image="/88x31/lukevim.png"
+      url="https://https://lukegonsalves.com/"
+    />
     </>
   )
 }
