@@ -1,13 +1,8 @@
+'use client'
 import styles from './styles/Home.module.css';
 import FriendsList from './_components/friendsList.js'
 import QuickLinks from './_components/quickLinks.js'
-
-export const metadata = {
-  title: 'jaysa.net',
-  keywords: ['Jaysa', 'Jaysa Garcia', 'jaysa.net'],
-  description: 'Jaysa\'s personal website. Check out links to other things I\'ve worked on, the websites of my friends inside The Buddy Box, and other extra details about me :)'
-}
-
+import { useState, useRef } from 'react';
 
 const overflowStyle = {
   wrapper: {
@@ -25,6 +20,19 @@ const overflowStyle = {
 import Image from'next/image'
 
 export default function Home() {
+
+  const [isPlaying, setIsPlaying] = useState(true);
+  const audioRef = useRef(null);
+
+  const togglePlay = () => {
+    if (isPlaying) {
+      audioRef.current.pause();
+    } else {
+      audioRef.current.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+
   return (
     <div className={styles.imageWrapper}>
         <Image
@@ -50,6 +58,21 @@ export default function Home() {
                <a href="https://signal.me/#eu/DV4BfjYvhqW6hsIRUiwMnZ6mOFa1ilhJ6RQWW2Gpfgu0DbAjKjtGmJaLclQMpAlp"><p className={styles.cardText}><img className={styles.icon} src='/signal.svg' />jaysa.88</p></a>
                <a href="https://github.com/jaysa68"><p className={styles.cardText}><img className={styles.icon} src='/github.svg' />jaysa68</p></a>
                <a href="https://discord.com/users/202542121247440896"><p className={styles.cardText}><img className={styles.icon} src='/discord.svg' />evil_girl_making_laggy_chairs</p></a>
+            </div>
+            <div>
+               <img 
+                 style={{ 'image-rendering': 'pixelated', cursor: 'pointer' }}
+                 src='/ipod-shuffle.png'
+                 width='100'
+                 height='100'
+                 onClick={togglePlay}
+                 title='Hayley Williams - Ego Death at a Bachelorette Party'
+               />
+               <audio
+                 ref={audioRef}
+                 src="/fav-song.mp3" 
+                 type="audio/mp3" 
+               />
             </div>
             <div className={styles.innerFriendBox}>
                <FriendsList />
