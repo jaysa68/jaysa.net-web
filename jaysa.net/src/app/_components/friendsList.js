@@ -134,15 +134,20 @@ export default function FriendsList() {
       image="/88x31/han.gif"
       url="https://chamburr.com/"
     />
-    <FriendBadge 
+    <FriendBadge
       name="rsang"
       image="/88x31/rsang.png"
       url="https://rsang.me/"
     />
-    <FriendBadge 
+    <FriendBadge
       name="lukegon"
       image="/88x31/lukevim.png"
       url="https://lukegonsalves.com/"
+    />
+    <FriendBadge
+      name="blakeh"
+      image="/88x31/blakeh.gif"
+      url="https://blakehaug.com"
     />
     </>
   )
