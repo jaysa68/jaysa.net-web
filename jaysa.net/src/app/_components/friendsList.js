@@ -66,19 +66,24 @@ export default function FriendsList() {
       image="/88x31/tiffsun.png"
       url="https://vimeo.com/943936691"
     />
-    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
-	  <p>The Buddy Box</p>
-    </div>
     <FriendBadge 
       name="njha"
       image="/88x31/njha.png"
       url="https://njha.dev"
     />
     <FriendBadge 
+      name="brooke"
+      image="/88x31/brooke.png"
+      url="https://brookemao.ca/"
+    />
+    <FriendBadge 
       name="kati"
       image="/88x31/kati.gif"
       url="https://solilokii.neocities.org"
     />
+    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
+	  <p>The Buddy Box</p>
+    </div>
     <FriendBadge 
       name="storce"
       image="/88x31/storce.png"
@@ -148,6 +153,16 @@ export default function FriendsList() {
       name="blakeh"
       image="/88x31/blakeh.gif"
       url="https://blakehaug.com"
+    />
+    <FriendBadge
+      name="msonmez"
+      image="/88x31/mina.png"
+      url="https://minasonmez.com"
+    />
+    <FriendBadge
+      name="danliu"
+      image="/88x31/daniel.gif"
+      url="https://danxliu.com"
     />
     </>
   )
