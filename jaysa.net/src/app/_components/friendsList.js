@@ -27,6 +27,11 @@ export default function FriendsList() {
       url="https://ocf.io/decal"
     />
     <FriendBadge 
+      name="nixos"
+      image="/88x31/nixos.png"
+      url="https://nixos.org"
+    />
+    <FriendBadge 
       name="bencuan"
       image="/88x31/bencuan.gif"
       url="https://bencuan.me/"
@@ -77,11 +82,6 @@ export default function FriendsList() {
       url="https://brookemao.ca/"
     />
     <FriendBadge 
-      name="kati"
-      image="/88x31/kati.gif"
-      url="https://solilokii.neocities.org"
-    />
-    <FriendBadge 
       name="storce"
       image="/88x31/storce.png"
       url="https://joewang.me"
@@ -108,11 +108,6 @@ export default function FriendsList() {
       name="aly"
       image="/88x31/albert.png"
       url="https://albie.cat"
-    />
-    <FriendBadge 
-      name="nixos"
-      image="/88x31/nixos.png"
-      url="https://nixos.org"
     />
     <FriendBadge 
       name="lavanya"
@@ -168,6 +163,26 @@ export default function FriendsList() {
       name="ronitnath"
       image="/88x31/ronit.png"
       url="https://ronitnath.com"
+    />
+    <FriendBadge
+      name="abizer"
+      image="/88x31/abizer.jpg"
+      url="https://ocf.io/abizer"
+    />
+    <FriendBadge
+      name="sky"
+      image="/88x31/sky.png"
+      url="https://scylactic.straw.page/"
+    />
+    <FriendBadge
+      name="elise"
+      image="/88x31/elise.png"
+      url="https://aprettysaltysite.carrd.co/"
+    />
+    <FriendBadge 
+      name="kati"
+      image="/88x31/kati.gif"
+      url="https://solilokii.neocities.org"
     />
     </>
   )
