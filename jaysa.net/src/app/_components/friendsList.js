@@ -81,9 +81,6 @@ export default function FriendsList() {
       image="/88x31/kati.gif"
       url="https://solilokii.neocities.org"
     />
-    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
-	  <p>The Buddy Box</p>
-    </div>
     <FriendBadge 
       name="storce"
       image="/88x31/storce.png"
@@ -99,6 +96,9 @@ export default function FriendsList() {
       image="/88x31/cli.png"
       url="https://chenghao.li"
     />
+    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
+	  <p>The Buddy Box</p>
+    </div>
     <FriendBadge 
       name="sawansri"
       image="/88x31/sawansri.png"
@@ -163,6 +163,11 @@ export default function FriendsList() {
       name="danliu"
       image="/88x31/daniel.gif"
       url="https://danxliu.com"
+    />
+    <FriendBadge
+      name="ronitnath"
+      image="/88x31/ronit.png"
+      url="https://ronitnath.com"
     />
     </>
   )
