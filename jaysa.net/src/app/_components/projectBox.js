@@ -6,8 +6,9 @@ export default function ProjectBox( {title, subtitle, imgSrc, projLink} ) {
   <div className={styles.outerBox}>
   <a href={projLink}>
     <div className={styles.projectBox}>
-      <Image 
+      <Image
         src={imgSrc}
+        alt={title}
         className={styles.homelabThumbnail}
         width={100}
         height={100}
