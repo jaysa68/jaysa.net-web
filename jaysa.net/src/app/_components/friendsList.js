@@ -169,6 +169,16 @@ export default function FriendsList() {
       image="/88x31/abizer.jpg"
       url="https://ocf.io/abizer"
     />
+    <FriendBadge 
+      name="emmasmith"
+      image="/88x31/emmahs.png"
+      url="https://emmatyping.dev/"
+    />
+    <FriendBadge 
+      name="gfs"
+      image="/88x31/gfs.png"
+      url="https://everydayimshuflin.com/"
+    />
     <FriendBadge
       name="sky"
       image="/88x31/sky.png"
