@@ -96,9 +96,6 @@ export default function FriendsList() {
       image="/88x31/cli.png"
       url="https://chenghao.li"
     />
-    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
-	  <p>The Buddy Box</p>
-    </div>
     <FriendBadge 
       name="sawansri"
       image="/88x31/sawansri.png"
@@ -114,6 +111,9 @@ export default function FriendsList() {
       image="/88x31/lavanya.png"
       url="https://lavanya.dev"
     />
+    <div style={{width: "102px", height: "45px", display: "flex", 'align-items': "center", 'justify-content': "center"}}>
+	  <p>The Buddy Box</p>
+    </div>
     <FriendBadge 
       name="gianna caudillo"
       image="/88x31/gianna.png"
