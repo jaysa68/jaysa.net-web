@@ -166,7 +166,7 @@ export default function FriendsList() {
     />
     <FriendBadge
       name="ronitnath"
-      image="/88x31/ronit.png"
+      image="/88x31/ronitnath.gif"
       url="https://ronitnath.com"
     />
     <FriendBadge
