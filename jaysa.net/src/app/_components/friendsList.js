@@ -180,6 +180,11 @@ export default function FriendsList() {
       url="https://emmatyping.dev/"
     />
     <FriendBadge 
+      name="fydai"
+      image="/88x31/fydai.webp"
+      url="https://fyd.ai"
+    />
+    <FriendBadge 
       name="gfs"
       image="/88x31/gfs.png"
       url="https://everydayimshuflin.com/"
