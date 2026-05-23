@@ -21,6 +21,10 @@ export default function Header() {
           url="/about"
         />
         <HeaderLink
+          name="buddies"
+          url="/buddies"
+        />
+        <HeaderLink
           name="homelab"
           url="/homelab"
         />

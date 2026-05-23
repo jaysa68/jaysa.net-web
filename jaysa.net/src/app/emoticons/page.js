@@ -6,11 +6,30 @@ export default function Home() {
   return (
     <div className={styles.innerContainer}>
       <p>
-
-      Work in Progress!
       <br /><br />
-
       ╭─༺♡༻─╮
+      <br /><br />
+      (っ◔◡◔)っ 🍔
+      <br /><br />
+      ( ͠° ͟ʖ ͡°)
+      <br /><br />
+      ( ˘ ³˘)♥
+      <br /><br />
+      (⌣́_⌣̀)
+      <br /><br />
+      ♥‿♥
+      <br /><br />
+      ( ˶ˆᗜˆ˵ )
+      <br /><br />
+      (ദ്ദി˙ᗜ˙)
+      <br /><br />
+      (╥_╥)
+      <br /><br />
+      (¬_¬)
+      <br /><br />
+      (╯°□°)╯︵ ┻━┻
+      <br /><br />
+      ( ͡° ͜ʖ ͡°)
       <br /><br />
         ¯\_(ツ)_/¯
       <br /><br />
@@ -24,6 +43,20 @@ export default function Home() {
       <br />
         /    づ♡
       <br /><br />
+
+      /\____/\
+      <br />
+      ꒰˶• ༝ -˶꒱
+      <br />
+      ./づᡕᠵ᠊ᡃ࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊°.~♡︎
+      <br /><br />
+
+      ˖ ݁♬⋆.˚𝄞
+      <br /><br />
+      -`✮´-
+      <br /><br />
+
+
       ╰─༺♡༻─╯
 
       </p>

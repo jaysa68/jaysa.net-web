@@ -1,6 +1,5 @@
 'use client'
 import styles from './styles/Home.module.css';
-import FriendsList from './_components/friendsList.js'
 import QuickLinks from './_components/quickLinks.js'
 import { useState, useRef } from 'react';
 
@@ -61,7 +60,7 @@ export default function Home() {
             </div>
             <div>
                <img 
-                 style={{ 'image-rendering': 'pixelated', cursor: 'pointer' }}
+                 style={{ 'imageRendering': 'pixelated', cursor: 'pointer' }}
                  src='/ipod-shuffle.png'
                  width='100'
                  height='100'
@@ -73,9 +72,6 @@ export default function Home() {
                  src="/fav-song.mp3" 
                  type="audio/mp3" 
                />
-            </div>
-            <div className={styles.innerFriendBox}>
-               <FriendsList />
             </div>
 	    <div>
 	       <QuickLinks />

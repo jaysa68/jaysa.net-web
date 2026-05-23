@@ -34,7 +34,7 @@
 .innerFriendBox {
   display: flex;
   flex-wrap: wrap;
-  width: 20rem;
+  width: 46.5rem;
   gap: 5px;
 
   background-color: var(--gray);
@@ -57,6 +57,16 @@
   border-top-color: var(--bright-gray);
   border-right-color: var(--bright-gray);
   image-rendering: pixelated;
+}
+
+/* for buddies page only */
+.innerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
