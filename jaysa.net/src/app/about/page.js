@@ -11,24 +11,25 @@ export default function Home() {
         ╔═══════════════*.·:·.☽✧&nbsp;&nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;&nbsp;✧☾.·:·.*═══════════════╗
         <br/>
 
-	Hi! My name is Jaysa Garcia. I'm a fourth-year undergraduate student at
-	  UC Berkeley. I study English and Computer Science.
+	Hi! My name is Jaysa Garcia. I live in San Francisco and I'm a programmer at <Link ref="https://www.arini.ai/"
+	className={styles.pLink}>Arini</Link>.
 
         <br/>-──────────────────── ⋆⋅☆⋅⋆ ───────────────────-<br/>
 
-        When I'm not in class, I'm nearly always at the
-        <Link className={styles.pLink} href="https://www.ocf.berkeley.edu/"> Open Computing Facility</Link>,
-        a student-run computer lab which I love very dearly. I'm also working part-time on platform engineering type stuff at <Link
-        href="https://www.arini.ai/" className={styles.pLink}>Arini</Link> until May.
+        When I'm not at work, I attend the [Bay Area Nix User Group](https://www.bayareanixos.com/) meetups and work on [my homelab setup](https://github.com/jaysa68/jaysaflake). I also frequent second-hand stores like [Out of the Closet](https://outofthecloset.org/) and [Crossroads](https://crossroadstrading.com/) looking for cute stuff.
+
 
         <br/>⠄⠂ ⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂ ⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂⠁⠁⠂⠄⠄⠂ ⠂⠄⠂⠁⠁⠂⠄⠂☆<br/>
 
+	I graduated with my bachelor's degree from U.C. Berkeley in the spring
+	of 2026, and I majored in English and Computer Science. I spent a lot
+	of time at the <Link className={styles.pLink}
+	href="https://www.ocf.berkeley.edu/"> Open Computing Facility</Link>, a
+	student-run computer lab which I love very dearly.
+
         I grew up right on the edge of Turlock, which is a mid-sized
-        town in the Central Valley of California. In high school, I was co-president of the Game
-        Club (both board and video games) and played clarinet in the marching band.
-        When I got home, I'd join a voice chat with my friends and play more games
-        until late into the night. I've been a bit too busy in college to continue
-        this habit... but I'll bring it back soon.
+        town in the [Central Valley of California](https://en.wikipedia.org/wiki/San_Joaquin_Valley). In high school, I was co-president of the Game
+        Club (both board and video games) and played clarinet in the marching band. I still go home to visit about once a month to be with my friends and fam        ily and to go to church with my mom. I've been a bit too busy with work and moving in to be there as much as I'd like... but I'll bring it back soon.
 
 
         ╚═══════════════*.·:·.☽✧&nbsp;&nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;&nbsp;✧☾.·:·.*═══════════════╝
