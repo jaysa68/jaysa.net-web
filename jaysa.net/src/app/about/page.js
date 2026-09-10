@@ -11,7 +11,7 @@ export default function Home() {
         ╔═══════════════*.·:·.☽✧&nbsp;&nbsp;&nbsp;&nbsp;✦&nbsp;&nbsp;&nbsp;&nbsp;✧☾.·:·.*═══════════════╗
         <br/>
 
-	Hi! My name is Jaysa Garcia. I live in San Francisco and I'm a programmer at <Link ref="https://www.arini.ai/"
+	Hi! My name is Jaysa Garcia. I live in San Francisco and I'm a programmer at <Link href="https://www.arini.ai/"
 	className={styles.pLink}>Arini</Link>.
 
         <br/>-──────────────────── ⋆⋅☆⋅⋆ ───────────────────-<br/>
