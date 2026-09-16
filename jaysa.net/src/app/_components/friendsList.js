@@ -154,6 +154,11 @@ export default function FriendsList() {
       image="/88x31/ericgu.png"
       url="https://www.tianchenggu.org/"
     />
+    <FriendBadge 
+      name="jingwenyang"
+      image="/88x31/jingwen.gif"
+      url="https://noonelovesyou.org/"
+    />
     <FriendBadge
       name="msonmez"
       image="/88x31/mina.png"
