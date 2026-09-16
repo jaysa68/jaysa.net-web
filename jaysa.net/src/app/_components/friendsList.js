@@ -31,6 +31,11 @@ export default function FriendsList() {
       image="/88x31/nixos.png"
       url="https://nixos.org"
     />
+    <FriendBadge
+      name="nixusergroup"
+      image="/88x31/nixusergroup.webp"
+      url="https://bayareanixos.com"
+    />
     <FriendBadge 
       name="bencuan"
       image="/88x31/bencuan.gif"
