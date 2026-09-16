@@ -1,4 +1,5 @@
-sudo systemctl restart jaysa-net.service
+## starting on `momo` (my VM)
+npm run build && sudo systemctl restart jaysa-net.service
 
 Run the development server:
 npm run dev
