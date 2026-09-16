@@ -101,14 +101,14 @@ export default function FriendsList() {
       image="/88x31/cli.png"
       url="https://chenghao.li"
     />
+    <div style={{width: "102px", height: "45px", display: "flex", 'alignItems': "center", 'justifyContent': "center"}}>
+	  <p>The Buddy Box</p>
+    </div>
     <FriendBadge 
       name="sawansri"
       image="/88x31/sawansri.png"
       url="https://sawansri.com"
     />
-    <div style={{width: "102px", height: "45px", display: "flex", 'alignItems': "center", 'justifyContent': "center"}}>
-	  <p>The Buddy Box</p>
-    </div>
     <FriendBadge 
       name="aly"
       image="/88x31/albert.png"
