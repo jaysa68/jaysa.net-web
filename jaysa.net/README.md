@@ -1,3 +1,4 @@
+sudo systemctl restart jaysa-net.service
 
 Run the development server:
 npm run dev
