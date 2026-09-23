@@ -25,7 +25,7 @@ export default function Home() {
 	of 2026, and I majored in English and Computer Science. I spent a lot
 	of time at the <Link href="https://www.ocf.berkeley.edu/"
 	className={styles.pLink}>Open Computing Facility</Link>, a student-run
-	computer lab which I love very dearly.
+	computer lab which I love very dearly. I'm still active in the #rebuild and #off-topic channels in the OCF's bridged chat; <Link className={styles.pLink} href="https://bestdocs.ocf.io/user-docs/contact/chat/">stop by and say hi</Link>!
 
         <br/>-──────────────────── ⋆⋅☆⋅⋆ ───────────────────-<br/>
 
