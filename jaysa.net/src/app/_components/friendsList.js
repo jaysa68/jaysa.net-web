@@ -112,7 +112,7 @@ export default function FriendsList() {
     <FriendBadge 
       name="aly"
       image="/88x31/albert.png"
-      url="https://albie.cat"
+      url="https://aly.sh/"
     />
     <FriendBadge 
       name="lavanya"
