@@ -144,6 +144,11 @@ export default function FriendsList() {
       image="/88x31/rsang.png"
       url="https://rsang.me/"
     />
+    <FriendBadge 
+      name="joie"
+      image="/88x31/joie.png"
+      url="https://www.ocf.berkeley.edu/~joiew/"
+    />
     <FriendBadge
       name="lukegon"
       image="/88x31/lukevim.png"
