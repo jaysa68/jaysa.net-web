@@ -12,7 +12,7 @@
       packages.x86_64-linux.default = pkgs.buildNpmPackage {
         name = "jaysa.net";
         src = ./jaysa.net;
-        npmDepsHash = pkgs.lib.fakeHash;
+        npmDepsHash = "sha256-6n1xQuL1DLUaksYa8rj+4ym+6Z/EK6JnSSIqkRYnM6w=";
         installPhase = ''
           cp -r out $out
         '';
