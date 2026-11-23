@@ -54,9 +54,11 @@ export default function Home() {
             <div className={styles.card}>
                <p className={styles.cardTitle}>Finding Jaysa</p>
                <a href="mailto:contact@jaysa.net"><p className={styles.cardText}><img className={styles.icon} src='/envelope.svg' />contact@jaysa.net</p></a>
-               <a href="https://signal.me/#eu/DV4BfjYvhqW6hsIRUiwMnZ6mOFa1ilhJ6RQWW2Gpfgu0DbAjKjtGmJaLclQMpAlp"><p className={styles.cardText}><img className={styles.icon} src='/signal.svg' />jaysa.88</p></a>
+               <a href="https://signal.me/#eu/3szNfQ4zJyMEZq1onkLVnmYP7zHYb7zyKCCqTHLPqPANU5PMIDND86O5mlSGh7pA"><p className={styles.cardText}><img className={styles.icon} src='/signal.svg' />jaysa.88</p></a>
+               <a href="https://matrix.to/#/@jaysa:jaysa.net"><p className={styles.cardText}><img className={styles.icon} src='/matrix.svg' />@jaysa:jaysa.net</p></a>
+               <a href="https://discord.com/users/1573892813253247056"><p className={styles.cardText}><img className={styles.icon} src='/discord.svg' />jaysa.net</p></a>
                <a href="https://github.com/jaysa68"><p className={styles.cardText}><img className={styles.icon} src='/github.svg' />jaysa68</p></a>
-               <a href="https://discord.com/users/202542121247440896"><p className={styles.cardText}><img className={styles.icon} src='/discord.svg' />evil_girl_making_laggy_chairs</p></a>
+	       <a href="https://commons.wikimedia.org/wiki/User:Jaysa88"><p className={styles.cardText}><img className={styles.icon} src='/wikipedia.svg' />Jaysa88</p></a>
             </div>
             <div>
                <img 
